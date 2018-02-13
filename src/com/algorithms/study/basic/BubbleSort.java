@@ -1,6 +1,10 @@
 package com.algorithms.study.basic;
 
-public class BubleSort {
+/**
+ * if it is ordered does not process,
+ * at every search removes last element
+ */
+public class BubbleSort {
 
 
     public static void main(String[] args) {
