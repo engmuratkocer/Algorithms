@@ -9,7 +9,7 @@ public class DFS {
 
     public static void main(String[] args) {
 
-        int searchElement = 8;
+        int searchElement = 10;
         TreeNode bTree = TreeNode.getDefaultTree();
         System.out.println(deapthFirstSearch(bTree, searchElement));
 
@@ -39,10 +39,11 @@ public class DFS {
         if (bTree.data == searchElement)
             return bTree.data;
 
-        deapthFirstSearch(visitedNodes,bTree.leftNode,searchElement);
+        int findVal = deapthFirstSearch(visitedNodes,bTree.leftNode,searchElement);
 
-        deapthFirstSearch(visitedNodes,bTree.rightNode,searchElement);
+        if (findVal == -1 )
+            findVal = deapthFirstSearch(visitedNodes,bTree.rightNode,searchElement);
 
-        return -1;
+        return findVal;
     }
 }
