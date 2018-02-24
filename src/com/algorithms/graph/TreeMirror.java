@@ -7,12 +7,11 @@ public class TreeMirror {
 
     public static void main(String[] args) {
 
-
         System.out.println(" First Tree ");
         System.out.println(TreeNode.getDefaultTree().toString());
 
-        TreeNode mirroredTree = mirror(TreeNode.getDefaultTree());
         System.out.println(" Mirrored Tree ");
+        TreeNode mirroredTree = mirror(TreeNode.getDefaultTree());
         System.out.println(mirroredTree.toString());
 
     }
