@@ -9,6 +9,7 @@ import java.util.Map;
 
 public class TreeNode {
 
+    public int level;
     public int data;
     public TreeNode leftNode = null;
     public TreeNode rightNode = null;
@@ -19,7 +20,7 @@ public class TreeNode {
 
         TreeNode lNode = new TreeNode(4);
         TreeNode lNode_left = new TreeNode(2);
-        TreeNode lNode_right = new TreeNode(5);
+//        TreeNode lNode_right = new TreeNode(5);
 
         TreeNode rNode = new TreeNode(9);
         TreeNode rNode_left = new TreeNode(8);
@@ -29,7 +30,7 @@ public class TreeNode {
         node.setRightNode(rNode);
 
         lNode.setLeftNode(lNode_left);
-        lNode.setRightNode(lNode_right);
+//        lNode.setRightNode(lNode_right);
 
         rNode.setLeftNode(rNode_left);
         rNode.setRightNode(rNode_right);
