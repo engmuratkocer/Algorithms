@@ -1,5 +1,3 @@
-package com.test.CodilityTraining;
-
 public class CycyicRotation {
 
     public static void main(String[] args) {
