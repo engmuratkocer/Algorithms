@@ -32,7 +32,7 @@ public class SubsetsOfSet {
         Set<Character> test = new HashSet<>();
         test.add('a');
         test.add('b');
-        test.add('c');
+//        test.add('c');
         System.out.println("test = " + test);
         Set<Set<Character>> result = powerSet(test);
         System.out.println(result);

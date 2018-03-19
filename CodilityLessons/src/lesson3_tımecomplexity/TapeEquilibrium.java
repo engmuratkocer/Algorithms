@@ -1,4 +1,4 @@
-package TimeComplexity;
+package lesson3_tımecomplexity;
 
 public class TapeEquilibrium {
 

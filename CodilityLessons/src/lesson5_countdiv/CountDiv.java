@@ -1,4 +1,4 @@
-package CountDiv;
+package lesson5_countdiv;
 
 public class CountDiv {
 

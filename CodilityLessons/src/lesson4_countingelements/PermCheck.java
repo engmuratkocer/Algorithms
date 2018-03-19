@@ -1,4 +1,4 @@
-package CountingElements;
+package lesson4_countingelements;
 
 import java.util.HashSet;
 import java.util.Set;

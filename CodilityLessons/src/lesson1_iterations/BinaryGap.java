@@ -1,4 +1,4 @@
-package com.test.CodilityTraining;
+package lesson1_iterations;
 
 import static java.lang.Integer.max;
 
