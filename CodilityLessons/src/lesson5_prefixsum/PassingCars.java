@@ -1,4 +1,4 @@
-package lesson5_countdiv;
+package lesson5_prefixsum;
 
 public class PassingCars {
 
@@ -26,8 +26,6 @@ public class PassingCars {
             }
             int sumPerm = 0;
             int numberOfOnes = A.length - numberOfZeros;
-
-            numberOfZeros=0;
 
             for(int elm:A)
             {
