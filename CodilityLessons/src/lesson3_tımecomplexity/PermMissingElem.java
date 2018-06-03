@@ -17,6 +17,9 @@ public class PermMissingElem {
 
     public int solution(int[] A) {
 
+
+
+
         int sum = 0;
 
 

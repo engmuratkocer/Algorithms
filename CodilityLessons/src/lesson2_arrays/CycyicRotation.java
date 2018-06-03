@@ -8,8 +8,8 @@ public class CycyicRotation {
 
 
         int a[] = {3, 2, 6, 7};
-        int k = 3;
-        int res[] = cycyicRotation.solution(a, 2);
+        int rotate = 3;
+        int res[] = cycyicRotation.solution(a, rotate);
 
         System.out.println("{ ");
         String cycledArr = "";
@@ -27,7 +27,7 @@ public class CycyicRotation {
 
         if (validateInputs(A, K, arrayLength)) return null;
 
-        if (K == 0) {
+        if (shiftCount == 0 || K == 0) {
             // no need to rotate
             return A;
         }
